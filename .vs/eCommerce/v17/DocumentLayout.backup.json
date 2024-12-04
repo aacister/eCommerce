@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|solutionrelative:usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:usersservice\\usersservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|solutionrelative:usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,36 +125,8 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenderOptions.cs",
-              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
-              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
-              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
-              "RelativeToolTip": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T03:58:26.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T03:49:31.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "UsersService\\UsersService.API\\Controllers\\AuthController.cs",
@@ -163,6 +135,27 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T03:46:01.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:49:43.13Z",
               "EditorCaption": ""
             },
             {
@@ -179,15 +172,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T03:49:43.13Z"
+              "WhenOpened": "2024-12-04T03:49:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenderOptions.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:58:26.273Z"
             },
             {
               "$type": "Document",
@@ -512,10 +517,6 @@
               "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T02:34:22.857Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",

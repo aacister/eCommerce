@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+CsV7f5o170=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\ProductsService\\ProductsService.API\\ProductsService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}

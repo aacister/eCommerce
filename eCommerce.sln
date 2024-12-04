@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersService", "UsersServic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductsService", "ProductsService", "{CC2DC3E0-E79F-46EF-90B1-2E9C6D895E6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsService.API", "ProductsService\ProductsService.API\ProductsService.API.csproj", "{4A041357-654D-4860-B45B-DBBEB1B83E25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A041357-654D-4860-B45B-DBBEB1B83E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A041357-654D-4860-B45B-DBBEB1B83E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A041357-654D-4860-B45B-DBBEB1B83E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A041357-654D-4860-B45B-DBBEB1B83E25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{D414F276-48EA-4C30-B48F-B79E3B9D4DAD} = {935275C5-088C-416D-9F8F-1BD67A67F960}
 		{272C4B31-2427-41D1-8F50-75B94DC4F97A} = {935275C5-088C-416D-9F8F-1BD67A67F960}
 		{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4} = {935275C5-088C-416D-9F8F-1BD67A67F960}
+		{4A041357-654D-4860-B45B-DBBEB1B83E25} = {CC2DC3E0-E79F-46EF-90B1-2E9C6D895E6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9B32A74-A742-4DD3-A91A-EAB1F5474E43}
