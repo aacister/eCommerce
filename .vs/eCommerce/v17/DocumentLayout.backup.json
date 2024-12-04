@@ -1,0 +1,525 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|solutionrelative:usersservice\\usersservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:usersservice\\usersservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|solutionrelative:usersservice\\usersservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:usersservice\\usersservice.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.core\\dto\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|solutionrelative:usersservice\\usersservice.core\\dto\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.core\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|solutionrelative:usersservice\\usersservice.core\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|solutionrelative:usersservice\\usersservice.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.infrastructure\\userservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{272C4B31-2427-41D1-8F50-75B94DC4F97A}|UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:usersservice\\usersservice.infrastructure\\userservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.api\\userservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D414F276-48EA-4C30-B48F-B79E3B9D4DAD}|UsersService\\UsersService.API\\UserService.API.csproj|solutionrelative:usersservice\\usersservice.api\\userservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|c:\\users\\aacis\\source\\repos\\microserviceswithazuredevops\\ecommerce\\usersservice\\usersservice.core\\dto\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A27B0-4341-48A7-B2F3-EA7075AF60A4}|UsersService\\UsersService.Core\\UserService.Core.csproj|solutionrelative:usersservice\\usersservice.core\\dto\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\UsersService.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DbContext\\DapperDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\UsersService.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\RegisterRequestValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Services\\UsersService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\ServiceContracts\\IUsersService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\RepositroyContracts\\IUsersRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\ApplicationUserMappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Entities\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\RegisterRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\GenderOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\AuthenticationResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Middlewares\\ExceptionHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\LoginRequestValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\Repositories\\UsersRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 253,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenderOptions.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Core\\DTO\\GenderOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:58:26.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:49:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UsersService\\UsersService.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:46:01.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\Program.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\Program.cs",
+              "RelativeToolTip": "UsersService\\UsersService.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:48:27.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:49:43.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\Services\\UsersService.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Core\\Services\\UsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:38:32.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:37:59.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj",
+              "RelativeToolTip": "UsersService\\UsersService.Infrastructure\\UserService.Infrastructure.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA4wAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T03:37:39.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.API.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\UserService.API.csproj",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.API\\UserService.API.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\UserService.API.csproj",
+              "RelativeToolTip": "UsersService\\UsersService.API\\UserService.API.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA4wBQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T03:37:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "UsersService\\UsersService.Core\\DTO\\AuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeToolTip": "UsersService\\UsersService.Core\\DTO\\AuthenticationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:47:42.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DapperDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DbContext\\DapperDbContext.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\ecommerce.Infrastructure\\DbContext\\DapperDbContext.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DbContext\\DapperDbContext.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\ecommerce.Infrastructure\\DbContext\\DapperDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T03:18:46.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersService.API.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T22:55:33.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersService.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\UsersService.Core.csproj",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\UsersService.Core.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\UsersService.Core.csproj",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\UsersService.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T02:53:22.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\UsersService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\ecommerce.Infrastructure\\UsersService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\UsersService.Infrastructure.csproj",
+              "RelativeToolTip": "..\\eCommerceSolution\\ecommerce.Infrastructure\\UsersService.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T22:58:27.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Validators\\RegisterRequestValidator.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Validators\\RegisterRequestValidator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T21:10:35.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Services\\UsersService.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Services\\UsersService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:33:01.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\ServiceContracts\\IUsersService.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\ServiceContracts\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\ServiceContracts\\IUsersService.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\ServiceContracts\\IUsersService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:29:16.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\RepositroyContracts\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\RepositroyContracts\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\RepositroyContracts\\IUsersRepository.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\RepositroyContracts\\IUsersRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:19:54.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUserMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\ApplicationUserMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Mappers\\ApplicationUserMappingProfile.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\ApplicationUserMappingProfile.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Mappers\\ApplicationUserMappingProfile.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T01:36:44.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:53:49.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:00:35.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:56:55.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GenderOptions.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:03:02.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:04:45.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:22:11.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\Controllers\\AuthController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:15:13.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsersService.API.csproj",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\UsersService.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T03:09:57.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T21:07:17.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\Program.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\Program.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:08:13.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\ecommerce.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\ecommerce.Infrastructure\\DependencyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:58:47.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\DependencyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:12:31.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\ecommerce.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\ecommerce.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\ecommerce.Infrastructure\\Repositories\\UsersRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:21:10.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.API\\appsettings.json",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.API\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T03:06:33.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterRequestMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs",
+              "ToolTip": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs",
+              "RelativeToolTip": "..\\eCommerceSolution\\eCommerce.Core\\Mappers\\RegisterRequestMappingProfile.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:34:22.857Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "oPt6irtidBk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aacis\\source\\repos\\microservicesWithAzureDevOps\\eCommerce\\UsersService\\UsersService.API\\UserService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aacis\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\npgsql\\9.0.1\\npgsql.9.0.1.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\swashbuckle.aspnetcore\\7.1.0\\swashbuckle.aspnetcore.7.1.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.1.0\\swashbuckle.aspnetcore.swagger.7.1.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.1.0\\swashbuckle.aspnetcore.swaggergen.7.1.0.nupkg.sha512",
+    "C:\\Users\\aacis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.1.0\\swashbuckle.aspnetcore.swaggerui.7.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

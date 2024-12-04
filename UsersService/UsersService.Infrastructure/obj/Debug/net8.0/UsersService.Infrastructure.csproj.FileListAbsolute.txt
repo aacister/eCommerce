@@ -1,0 +1,12 @@
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\ecommerce.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.sourcelink.json
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Infrastructure\obj\Debug\net8.0\UsersService.Infrastructure.sourcelink.json

@@ -1,0 +1,12 @@
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.Core\obj\Debug\net8.0\UsersService.Core.sourcelink.json
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.Core\obj\Debug\net8.0\UsersService.Core.sourcelink.json

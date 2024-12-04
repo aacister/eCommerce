@@ -1,0 +1,14 @@
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\eCommerce.API\obj\Debug\net8.0\UsersService.API.sourcelink.json
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.csproj.AssemblyReference.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.AssemblyInfoInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.AssemblyInfo.cs
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.csproj.CoreCompileInputs.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aacis\source\repos\microservicesWithAzureDevOps\eCommerceSolution\UsersService\UsersService.API\obj\Debug\net8.0\UsersService.API.sourcelink.json
