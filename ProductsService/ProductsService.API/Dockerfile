@@ -13,6 +13,8 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["ProductsService/ProductsService.API/ProductsService.API.csproj", "ProductsService/ProductsService.API/"]
+COPY ["ProductsService/ProductsService.Business/ProductsService.Business.csproj", "ProductsService/ProductsService.Business/"]
+COPY ["ProductsService/ProductsService.DataAccess/ProductsService.DataAccess.csproj", "ProductsService/ProductsService.DataAccess/"]
 RUN dotnet restore "./ProductsService/ProductsService.API/ProductsService.API.csproj"
 COPY . .
 WORKDIR "/src/ProductsService/ProductsService.API"
@@ -27,4 +29,9 @@ RUN dotnet publish "./ProductsService.API.csproj" -c $BUILD_CONFIGURATION -o /ap
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV MYSQL_HOST=localhost
+ENV MYSQL_PASSWORD=admin
+ENV MYSQL_DATABASE=ecommerceproductsdatabase
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=admin
 ENTRYPOINT ["dotnet", "ProductsService.API.dll"]

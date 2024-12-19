@@ -16,6 +16,12 @@ internal class UsersService : IUsersService
         _mapper = mapper;
     }
 
+    public async Task<UserDTO> GetUserByUserID(Guid userID)
+    {
+        ApplicationUser? user = await _usersRepository.GetUserByUserID(userID);
+        return _mapper.Map<UserDTO>(user);
+    }
+
 
     public async Task<AuthenticationResponse?> Login(LoginRequest loginRequest)
     {

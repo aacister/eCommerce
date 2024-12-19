@@ -12,19 +12,26 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["eCommerce.API/eCommerce.API.csproj", "eCommerce.API/"]
-RUN dotnet restore "./eCommerce.API/eCommerce.API.csproj"
+COPY ["UsersService/UsersService.API/UserService.API.csproj", "UsersService/UsersService.API/"]
+COPY ["UsersService/UsersService.Core/UserService.Core.csproj", "UsersService/UsersService.Core/"]
+COPY ["UsersService/UsersService.Infrastructure/UserService.Infrastructure.csproj", "UsersService/UsersService.Infrastructure/"]
+RUN dotnet restore "./UsersService/UsersService.API/UserService.API.csproj"
 COPY . .
-WORKDIR "/src/eCommerce.API"
-RUN dotnet build "./eCommerce.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/UsersService/UsersService.API"
+RUN dotnet build "./UserService.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./eCommerce.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./UserService.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "eCommerce.API.dll"]
+ENV POSTGRES_HOST=localhost
+ENV POSTGRES_PASSWORD=admin
+ENV POSTGRES_DATABASE=eCommerceUsers
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PORT=5432
+ENTRYPOINT ["dotnet", "UserService.API.dll"]

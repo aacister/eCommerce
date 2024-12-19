@@ -41,9 +41,10 @@ app.UseExceptionHandlingMiddleware();
 
 //Routing
 app.UseRouting();
+app.UseCors();
 app.UseSwagger(); //Adds endpoints that serve swagger.json
 app.UseSwaggerUI();  //Adds swagger ui => interactive page to explore and test API endpoints 
-app.UseCors();
+
 //Auth
 app.UseAuthentication();
 app.UseAuthorization();
