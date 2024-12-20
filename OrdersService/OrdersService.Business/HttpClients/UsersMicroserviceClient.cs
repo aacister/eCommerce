@@ -1,19 +1,27 @@
-﻿using OrdersService.Business.DTO;
+﻿
+using Microsoft.Extensions.Logging;
+using OrdersService.Business.DTO;
+using Polly.CircuitBreaker;
+using Polly.Timeout;
 using System.Net.Http.Json;
 
-namespace OrdersService.Business.HttpClients
+namespace OrdersService.Business.HttpClients;
+
+public class UsersMicroserviceClient
 {
-    public class UsersMicroserviceClient
+    private readonly HttpClient _httpClient;
+    private readonly ILogger _logger;
+
+    public UsersMicroserviceClient(HttpClient httpClient, ILogger logger)
     {
-        private readonly HttpClient _httpClient;
-
-        public UsersMicroserviceClient(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-        }
+        _httpClient = httpClient;
+        _logger = logger;
+    }
 
 
-        public async Task<UserDTO?> GetUserByUserID(Guid userID)
+    public async Task<UserDTO?> GetUserByUserID(Guid userID)
+    {
+        try
         {
             HttpResponseMessage response = await _httpClient.GetAsync($"/api/users/{userID}");
 
@@ -29,7 +37,13 @@ namespace OrdersService.Business.HttpClients
                 }
                 else
                 {
-                    throw new HttpRequestException($"Http request failed with status code {response.StatusCode}");
+                    //  throw new HttpRequestException($"Http request failed with status code {response.StatusCode}");
+                    return new UserDTO(
+          PersonName: "Temporarily Unavailable",
+          Email: "Temporarily Unavailable",
+          Gender: "Temporarily Unavailable",
+          UserID: Guid.Empty);
+
                 }
             }
 
@@ -43,5 +57,26 @@ namespace OrdersService.Business.HttpClients
 
             return user;
         }
+        catch (BrokenCircuitException ex)
+        {
+            _logger.LogError(ex, "Request failed because of circuit breaker is in Open state. Returning dummy data.");
+
+            return new UserDTO(
+                    PersonName: "Temporarily Unavailable",
+                    Email: "Temporarily Unavailable",
+                    Gender: "Temporarily Unavailable",
+                    UserID: Guid.Empty);
+        }
+        catch (TimeoutRejectedException ex)
+        {
+            _logger.LogError(ex, "Timeout occurred while fetching user data. Returning dummy data");
+
+            return new UserDTO(
+                    PersonName: "Temporarily Unavailable (timeout)",
+                    Email: "Temporarily Unavailable (timeout)",
+                    Gender: "Temporarily Unavailable (timeout)",
+                    UserID: Guid.Empty);
+        }
+
     }
 }

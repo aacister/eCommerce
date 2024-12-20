@@ -1,19 +1,28 @@
-﻿using OrdersService.Business.DTO;
+﻿using DnsClient.Internal;
+using Microsoft.Extensions.Logging;
+using OrdersService.Business.DTO;
+using Polly.Bulkhead;
 using System.Net.Http.Json;
 
-namespace OrdersService.Business.HttpClients
+namespace OrdersService.Business.HttpClients;
+
+public class ProductsMicroserviceClient
 {
-    public class ProductsMicroserviceClient
+    private readonly HttpClient _httpClient;
+    private readonly ILogger<ProductsMicroserviceClient> _logger;
+
+    public ProductsMicroserviceClient(
+        HttpClient httpClient,
+        ILogger<ProductsMicroserviceClient> logger)
     {
-        private readonly HttpClient _httpClient;
-
-        public ProductsMicroserviceClient(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-        }
+        _httpClient = httpClient;
+        _logger = logger;
+    }
 
 
-        public async Task<ProductDTO?> GetProductByProductID(Guid productID)
+    public async Task<ProductDTO?> GetProductByProductID(Guid productID)
+    {
+        try
         {
             HttpResponseMessage response = await _httpClient.GetAsync($"/api/products/search/product-id/{productID}");
 
@@ -43,5 +52,17 @@ namespace OrdersService.Business.HttpClients
 
             return product;
         }
+        catch (BulkheadRejectedException ex)
+        {
+            _logger.LogError(ex, "Bulkhead isolation blocks the request since the request queue is full");
+
+            return new ProductDTO(
+              ProductID: Guid.NewGuid(),
+              ProductName: "Temporarily Unavailable (Bulkhead)",
+              Category: "Temporarily Unavailable (Bulkhead)",
+              UnitPrice: 0,
+              QuantityInStock: 0);
+        }
     }
+
 }
