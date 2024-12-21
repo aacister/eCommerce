@@ -6,6 +6,7 @@ using OrdersService.Business.Mappers;
 using OrdersService.Business.ServiceContracts;
 using OrdersService.Business.Validators;
 using os = OrdersService.Business.Services;
+using StackExchange.Redis;
 
 namespace OrdersService.Business
 {
@@ -19,6 +20,10 @@ namespace OrdersService.Business
             services.AddValidatorsFromAssemblyContaining<OrderAddRequestValidator>();
             services.AddAutoMapper(typeof(OrderAddRequestToOrderMappingProfile).Assembly);
             services.AddScoped<IOrdersService, os.OrdersService>();
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = $"{configuration["REDIS_HOST"]}:{configuration["REDIS_PORT"]}";
+            });
             return services;
         }
 
