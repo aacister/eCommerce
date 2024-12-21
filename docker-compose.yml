@@ -10,9 +10,9 @@ services:
      - MONGODB_HOST=mongodb-container
      - MONGODB_PORT=27017
      - MONGODB_DATABASE=OrdersDatabase
-     - UsersMicroserviceName=users-microservice
+     - UsersMicroserviceName=apigateway
      - UsersMicroservicePort=8080
-     - ProductsMicroserviceName=products-microservice
+     - ProductsMicroserviceName=apigateway
      - ProductsMicroservicePort=8080
      - REDIS_HOST=redis
      - REDIS_PORT=6379
@@ -108,6 +108,15 @@ services:
    networks:
     - ecommerce-network
 
+  apigateway:
+    image: apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+     - "4000:8080"
+    networks:
+    - ecommerce-network
 
 networks:
  orders-mongodb-network:
@@ -118,3 +127,4 @@ networks:
   driver: bridge
  ecommerce-network:
   driver: bridge
+
