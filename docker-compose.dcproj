@@ -7,7 +7,7 @@
     <ProjectGuid>9800c8b8-b601-4d32-8095-e0a021eea77e</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>ordersmicroservice.api</DockerServiceName>
+    <DockerServiceName>ordersmicroservice-api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

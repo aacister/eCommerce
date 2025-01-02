@@ -7,6 +7,7 @@ using OrdersService.Business.ServiceContracts;
 using OrdersService.Business.Validators;
 using os = OrdersService.Business.Services;
 using StackExchange.Redis;
+using OrdersService.Business.RabbitMQ;
 
 namespace OrdersService.Business
 {
@@ -20,11 +21,17 @@ namespace OrdersService.Business
             services.AddValidatorsFromAssemblyContaining<OrderAddRequestValidator>();
             services.AddAutoMapper(typeof(OrderAddRequestToOrderMappingProfile).Assembly);
             services.AddScoped<IOrdersService, os.OrdersService>();
+            services.AddTransient<IRabbitMQProductNameUpdateConsumer, RabbitMQProductNameUpdateConsumer>();
+            services.AddHostedService<RabbitMQProductNameUpdateHostedService>();
+            services.AddTransient<IRabbitMQProductDeletionConsumer, RabbitMQProductDeletionConsumer>();
+            services.AddHostedService<RabbitMQProductDeletionHostedService>();
+
             services.AddStackExchangeRedisCache(options =>
             {
                 options.Configuration = $"{configuration["REDIS_HOST"]}:{configuration["REDIS_PORT"]}";
             });
             return services;
+
         }
 
     }

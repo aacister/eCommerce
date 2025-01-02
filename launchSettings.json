@@ -4,8 +4,9 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
-        "productsservice.api": "StartDebugging",
-        "ordersservice.api": "StartDebugging",
+        "users-microservice": "StartDebugging",
+        "products-microservice": "StartDebugging",
+        "ordersmicroservice-api": "StartDebugging",
         "apigateway": "StartDebugging"
       }
     }
